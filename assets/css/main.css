@@ -591,14 +591,27 @@ body {
   gap: 5rem;
 }
 
+.footer__content {
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
 .footer__title {
   font-size: var(--fs-lg);
   margin-bottom: 2rem;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
 }
 
 .footer__social-list {
   display: flex;
   gap: 3rem;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer__social-link {
@@ -613,6 +626,9 @@ body {
   font-weight: var(--fw-bold);
   text-decoration: underline;
   transition: var(--transition);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer__social-link:hover,
