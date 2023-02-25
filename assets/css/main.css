@@ -591,12 +591,6 @@ body {
   gap: 5rem;
 }
 
-.footer__content {
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
-}
-
 .footer__title {
   font-size: var(--fs-lg);
   margin-bottom: 2rem;
